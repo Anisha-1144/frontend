@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+         margin:0px;
+         padding:0px;
+         box-sizing: border-box;
+         text-align: center;
+        font-size: medium;
+        }
+      .container
+      {
+        background-color:beige;
+        height:100vh;
+        display:flex;
+        width:100%;
+      }
+      .box1
+      {
+        width:20%;
+        background-color: lightcoral;
+        height:100%;
+        color: black;
+        text-align: center;
+        font-size: larger;
+      }
+      .box2
+      {
+        width:80%;
+        background-color: beige;
+        height:100%;
+        margin-left: 100px;
+      }
+      .header{
+        height:30%;
+        background-color: lightcoral;
+      }
+      .center{
+        height:45%;
+        background-color: beige;
+        margin-top: 20px;
+        display:flex;
+      }
+     .footer{
+      height:20%;
+      background-color: lightcoral;
+      margin-top:10px;
+     }
+     .a1{
+      width:60%;
+      height:100%;
+      background-color: beige;
+      display:flex;
+      justify-content: space-between;
+     }
+    .box{
+      width:47%;
+      background-color:lightcoral;
+      height:100%;
+      
+     }
+     .a2{
+      width:40%;
+      height: 100%;
+      background-color: beige;
+      margin-left:50px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+     }
+     .a22{
+      width:100%;
+      height:45%;
+      background-color: lightcoral;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">NAVIGATION</div>
+        <div class="box2">
+          <div class="header">HEADER</div>
+          <div class="center">
+           <div class="a1" >
+            <div class="box">CARD 1</div>
+            <div class="box">CARD 2</div>
+           </div>
+           <div class="a2">
+            <div class="a22"> CARD 3</div>
+            <div class="a22">CARD 4</div>
+           </div>
+          </div>
+          <div class="footer">FOOTER</div>
+        </div>
+    </div>
+</body>
+</html>
